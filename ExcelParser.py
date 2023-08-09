@@ -54,6 +54,7 @@ for row in sheet.iter_rows(min_row=2, max_row=sheet.max_row, min_col=5, max_col=
 
 # Save the modified Excel file
 output_path = "EDITED_INPUT.xlsx"
+
 wb.save(output_path)
 
 # Calculate and print the duration
